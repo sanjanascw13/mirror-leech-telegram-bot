@@ -9,7 +9,7 @@ USER_SESSION_STRING = ""
 CMD_SUFFIX = ""
 AUTHORIZED_CHATS = ""
 SUDO_USERS = ""
-DATABASE_URL = ""
+DATABASE_URL = "mongodb+srv://sanjanascw13:sanjanascw13@telegrambot.5f5ennu.mongodb.net/?retryWrites=true&w=majority&appName=telegrambot"
 STATUS_LIMIT = 4
 DEFAULT_UPLOAD = "rc"
 STATUS_UPDATE_INTERVAL = 15
@@ -28,10 +28,10 @@ IS_TEAM_DRIVE = False
 STOP_DUPLICATE = False
 INDEX_URL = ""
 # Rclone
-RCLONE_PATH = ""
+RCLONE_PATH = "meg:/mirror"
 RCLONE_FLAGS = ""
-RCLONE_SERVE_URL = ""
-RCLONE_SERVE_PORT = 0
+RCLONE_SERVE_URL = "http://139.59.243.6:8080"
+RCLONE_SERVE_PORT = 8080
 RCLONE_SERVE_USER = ""
 RCLONE_SERVE_PASS = ""
 # JDownloader
@@ -62,7 +62,7 @@ USENET_SERVERS = [
 HYDRA_IP = ""
 HYDRA_API_KEY = ""
 # Update
-UPSTREAM_REPO = ""
+UPSTREAM_REPO = "https://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@github.com/sanjanascw13/mirror_leech_scw"
 UPSTREAM_BRANCH = "master"
 # Leech
 LEECH_SPLIT_SIZE = 0
@@ -76,8 +76,8 @@ LEECH_DUMP_CHAT = ""
 THUMBNAIL_LAYOUT = ""
 # qBittorrent/Aria2c
 TORRENT_TIMEOUT = 0
-BASE_URL = ""
-BASE_URL_PORT = 0
+BASE_URL = "http://139.59.243.6"
+BASE_URL_PORT = 80
 WEB_PINCODE = False
 # Queueing system
 QUEUE_ALL = 0
